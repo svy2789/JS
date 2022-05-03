@@ -89,8 +89,7 @@ CheckNumber(input)
     function CheckDog(input) {
     if (/@/.test(input)) {
         console.log("ok - в строке есть хотя бы одна @")
-    }
-    else {
+    } else {
         console.log("error - Должна быть хотя бы одна @")
     }
 }
